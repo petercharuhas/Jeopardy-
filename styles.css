@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e6e6fa;
+    color: #FFFFFF;
+  }
+  
+  #jeopardy {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  #jeopardy th, #jeopardy td {
+    border: 2px solid #000000;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  #jeopardy th {
+    background-color: #d1e6f0;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 50px;
+  }
+  
+  #jeopardy td {
+    background-color: #d1e6f0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #restart {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
